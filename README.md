@@ -11,12 +11,12 @@ To get started with the latest testnet, see the [docs](http://docs.qoschain.info
 
 ## *Dec 26, 2018* - Capricorn-1000
 
-We bootstraped the latest testnet with 10 genesis validators. Now, fuxi-6000 has 20 validators and the average block time is about 5s.
+We bootstraped the first testnet with 4 genesis validators. The average block time is about 5s.
 
 ## Resources
 
 * Code：https://github.com/QOSGroup/qos
 * Docs：http://docs.qoschain.info/qos
-* Explorer：//TODO
-* Faucet：//TODO
+* Explorer：http://explorer.qoschain.info/dashboard
+* Faucet：http://explorer.qoschain.info/freecoin/get
 

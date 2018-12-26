@@ -1,0 +1,190 @@
+{
+  "genesis_time": "2018-12-25T12:00:00Z",
+  "chain_id": "capricorn-1000",
+  "consensus_params": {
+    "block_size_params": {
+      "max_bytes": "22020096",
+      "max_txs": "10000",
+      "max_gas": "-1"
+    },
+    "tx_size_params": {
+      "max_bytes": "10240",
+      "max_gas": "-1"
+    },
+    "block_gossip_params": {
+      "block_part_size_bytes": "65536"
+    },
+    "evidence_params": {
+      "max_age": "100000"
+    }
+  },
+  "validators": [
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "F2HNZNCroVrxR745ls/F68CAecTs/Guu8wQSZCluxPQ="
+      },
+      "power": "1000",
+      "name": "qos0"
+    },
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "QV1cN6avhpm5CByxxOVOVdjdcyy+xx1tHNLCcEOBgrU="
+      },
+      "power": "1000",
+      "name": "qos1"
+    },
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "DmkMzK7HJNVU3ZE4ZNeUXEwpuHoIOxZXVW70VqPGMpg="
+      },
+      "power": "1000",
+      "name": "qos2"
+    },
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "l3K/TMAbBXWvJsmljEEWwznSYuNWr9Q+L89I0Ni5xSg="
+      },
+      "power": "1000",
+      "name": "qos3"
+    }
+  ],
+  "app_hash": "",
+  "app_state": {
+    "ca_pub_key": {
+      "type": "tendermint/PubKeyEd25519",
+      "value": "L+P3Vm8NQRDwVt4rHzlqtBJLGSsLZGLmmd4wLYrUe6U="
+    },
+    "accounts": [
+      {
+        "base_account": {
+          "account_address": "address10838kv24npgurv2hv62mdp8qm8tt42jeuzryza",
+          "public_key": null,
+          "nonce": "0"
+        },
+        "qos": "48972000000000",
+        "qscs": []
+      },
+      {
+        "base_account": {
+          "account_address": "address1pcjs0t9m9vl7vejwttuc2fzfgnutndnrpyw08m",
+          "public_key": null,
+          "nonce": "0"
+        },
+        "qos": "20000000000",
+        "qscs": []
+      },
+      {
+        "base_account": {
+          "account_address": "address1jz2wfq5ht3u4hmgshleqs8g23jfn3pypwvc0p7",
+          "public_key": null,
+          "nonce": "0"
+        },
+        "qos": "2000000000",
+        "qscs": []
+      },
+      {
+        "base_account": {
+          "account_address": "address1jmgxa6w538fc8f5zqnveyyh9ca5hftsrj3f72l",
+          "public_key": null,
+          "nonce": "0"
+        },
+        "qos": "2000000000",
+        "qscs": []
+      },
+      {
+        "base_account": {
+          "account_address": "address1a5w6uqt88r8xymtrpcqxwsq9jpwtj9hvpjfvd4",
+          "public_key": null,
+          "nonce": "0"
+        },
+        "qos": "2000000000",
+        "qscs": []
+      },
+      {
+        "base_account": {
+          "account_address": "address1sefu2ms7krjtm3p5efg0u76mgukquq0uwk5g3u",
+          "public_key": null,
+          "nonce": "0"
+        },
+        "qos": "2000000000",
+        "qscs": []
+      }
+    ],
+    "validators": [
+      {
+        "name": "qos0",
+        "owner": "address1sefu2ms7krjtm3p5efg0u76mgukquq0uwk5g3u",
+        "validatorPubkey": {
+          "type": "tendermint/PubKeyEd25519",
+          "value": "F2HNZNCroVrxR745ls/F68CAecTs/Guu8wQSZCluxPQ="
+        },
+        "bondTokens": "2000000000",
+        "description": "",
+        "status": 0,
+        "inactiveCode": 0,
+        "inactiveTime": "0001-01-01T00:00:00Z",
+        "inactiveHeight": "0",
+        "bondHeight": "1"
+      },
+      {
+        "name": "node1",
+        "owner": "address1a5w6uqt88r8xymtrpcqxwsq9jpwtj9hvpjfvd4",
+        "validatorPubkey": {
+          "type": "tendermint/PubKeyEd25519",
+          "value": "QV1cN6avhpm5CByxxOVOVdjdcyy+xx1tHNLCcEOBgrU="
+        },
+        "bondTokens": "2000000000",
+        "description": "",
+        "status": 0,
+        "inactiveCode": 0,
+        "inactiveTime": "0001-01-01T00:00:00Z",
+        "inactiveHeight": "0",
+        "bondHeight": "1"
+      },
+      {
+        "name": "node2",
+        "owner": "address1jmgxa6w538fc8f5zqnveyyh9ca5hftsrj3f72l",
+        "validatorPubkey": {
+          "type": "tendermint/PubKeyEd25519",
+          "value": "DmkMzK7HJNVU3ZE4ZNeUXEwpuHoIOxZXVW70VqPGMpg="
+        },
+        "bondTokens": "2000000000",
+        "description": "",
+        "status": 0,
+        "inactiveCode": 0,
+        "inactiveTime": "0001-01-01T00:00:00Z",
+        "inactiveHeight": "0",
+        "bondHeight": "1"
+      },
+      {
+        "name": "node3",
+        "owner": "address1jz2wfq5ht3u4hmgshleqs8g23jfn3pypwvc0p7",
+        "validatorPubkey": {
+          "type": "tendermint/PubKeyEd25519",
+          "value": "l3K/TMAbBXWvJsmljEEWwznSYuNWr9Q+L89I0Ni5xSg="
+        },
+        "bondTokens": "2000000000",
+        "description": "",
+        "status": 0,
+        "inactiveCode": 0,
+        "inactiveTime": "0001-01-01T00:00:00Z",
+        "inactiveHeight": "0",
+        "bondHeight": "1"
+      }
+    ],
+    "spo_config": {
+      "total_amount": "100000000000000",
+      "total_block": "6307200"
+    },
+    "stake_config": {
+      "max_validator_cnt": 100,
+      "voting_status_len": 1000,
+      "voting_status_least": 500,
+      "survival_secs": "3600"
+    }
+  }
+}
