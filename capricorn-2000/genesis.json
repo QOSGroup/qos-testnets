@@ -1,0 +1,276 @@
+{
+  "genesis_time": "2019-02-26T08:54:55.383343244Z",
+  "chain_id": "capricorn-2000",
+  "consensus_params": {
+    "block_size": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "base_account": {
+          "account_address": "address1tqcjlsjgjdcxn3045evgfpr3u8u5h6ut7tu4r0",
+          "public_key": null,
+          "nonce": "0"
+        },
+        "qos": "48972000000000",
+        "qscs": []
+      },
+      {
+        "base_account": {
+          "account_address": "address16t0tajq5jctdxsgcg7g8zru5yy4m3w6gjar0e5",
+          "public_key": null,
+          "nonce": "0"
+        },
+        "qos": "1000000000",
+        "qscs": null
+      },
+      {
+        "base_account": {
+          "account_address": "address1s96jpqn8pp6twy9urq0fs9rnldeuyaxkqpjs4e",
+          "public_key": null,
+          "nonce": "0"
+        },
+        "qos": "1000000000",
+        "qscs": null
+      }
+    ],
+    "mint": {
+      "params": {
+        "inflation_phrases": [
+          {
+            "endtime": "2023-01-01T00:00:00Z",
+            "total_amount": "2500000000000",
+            "applied_amount": "0"
+          },
+          {
+            "endtime": "2027-01-01T00:00:00Z",
+            "total_amount": "12750000000000",
+            "applied_amount": "0"
+          },
+          {
+            "endtime": "2031-01-01T00:00:00Z",
+            "total_amount": "6375000000000",
+            "applied_amount": "0"
+          },
+          {
+            "endtime": "2035-01-01T00:00:00Z",
+            "total_amount": "3185000000000",
+            "applied_amount": "0"
+          }
+        ]
+      },
+      "first_block_time": "0",
+      "applied_qos_amount": "0"
+    },
+    "stake": {
+      "params": {
+        "max_validator_cnt": 100,
+        "voting_status_len": 1000,
+        "voting_status_least": 500,
+        "survival_secs": 3600,
+        "unbond_return_height": 20
+      },
+      "validators": [
+        {
+          "name": "node0",
+          "owner": "address16t0tajq5jctdxsgcg7g8zru5yy4m3w6gjar0e5",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "64rpg9AJ9IKeA7AeRQOaTBm0dHfdpr4S7mRATQV1Rtc="
+          },
+          "bond_tokens": "3000000000",
+          "description": "",
+          "status": 0,
+          "inactive_code": 0,
+          "inactive_time": "0001-01-01T00:00:00Z",
+          "inactive_height": "0",
+          "min_period": "0",
+          "bond_height": "1"
+        },
+        {
+          "name": "node1",
+          "owner": "address1s96jpqn8pp6twy9urq0fs9rnldeuyaxkqpjs4e",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "KYlUGvP48A+SwzhZIccOIO7Qmi5KQ6vzre8lTDM7DVI="
+          },
+          "bond_tokens": "3000000000",
+          "description": "",
+          "status": 0,
+          "inactive_code": 0,
+          "inactive_time": "0001-01-01T00:00:00Z",
+          "inactive_height": "0",
+          "min_period": "0",
+          "bond_height": "1"
+        }
+      ],
+      "val_votes_info": null,
+      "val_votes_in_window": null,
+      "delegators_info": [
+        {
+          "delegator_addr": "address16t0tajq5jctdxsgcg7g8zru5yy4m3w6gjar0e5",
+          "validator_pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "64rpg9AJ9IKeA7AeRQOaTBm0dHfdpr4S7mRATQV1Rtc="
+          },
+          "delegate_amount": "3000000000",
+          "is_compound": true
+        },
+        {
+          "delegator_addr": "address1s96jpqn8pp6twy9urq0fs9rnldeuyaxkqpjs4e",
+          "validator_pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "KYlUGvP48A+SwzhZIccOIO7Qmi5KQ6vzre8lTDM7DVI="
+          },
+          "delegate_amount": "3000000000",
+          "is_compound": true
+        }
+      ],
+      "delegator_unbond_info": null,
+      "current_validators": null
+    },
+    "qcp": {
+      "ca_root_pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "L+P3Vm8NQRDwVt4rHzlqtBJLGSsLZGLmmd4wLYrUe6U="
+      },
+      "qcps": null
+    },
+    "qsc": {
+      "ca_root_pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "L+P3Vm8NQRDwVt4rHzlqtBJLGSsLZGLmmd4wLYrUe6U="
+      },
+      "qscs": null
+    },
+    "approve": {
+      "approves": null
+    },
+    "distribution": {
+      "community_fee_pool": "0",
+      "last_block_proposer": "address1ah9uz0",
+      "pre_distribute_amount": "0",
+      "validators_history_period": [
+        {
+          "validator_pubkey": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "64rpg9AJ9IKeA7AeRQOaTBm0dHfdpr4S7mRATQV1Rtc="
+          },
+          "period": "0",
+          "summary": {
+            "value": "0.000000000000000000"
+          }
+        },
+        {
+          "validator_pubkey": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "KYlUGvP48A+SwzhZIccOIO7Qmi5KQ6vzre8lTDM7DVI="
+          },
+          "period": "0",
+          "summary": {
+            "value": "0.000000000000000000"
+          }
+        }
+      ],
+      "validators_current_period": [
+        {
+          "validator_pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "64rpg9AJ9IKeA7AeRQOaTBm0dHfdpr4S7mRATQV1Rtc="
+          },
+          "current_period_summary": {
+            "fees": "0",
+            "period": "1"
+          }
+        },
+        {
+          "validator_pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "KYlUGvP48A+SwzhZIccOIO7Qmi5KQ6vzre8lTDM7DVI="
+          },
+          "current_period_summary": {
+            "fees": "0",
+            "period": "1"
+          }
+        }
+      ],
+      "delegators_earning_info": [
+        {
+          "validator_pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "64rpg9AJ9IKeA7AeRQOaTBm0dHfdpr4S7mRATQV1Rtc="
+          },
+          "delegator_address": "address16t0tajq5jctdxsgcg7g8zru5yy4m3w6gjar0e5",
+          "earning_start_info": {
+            "previous_period": "0",
+            "bond_token": "3000000000",
+            "earns_starting_height": "1",
+            "first_delegate_height": "1",
+            "historical_rewards": "0",
+            "last_income_calHeight": "0",
+            "last_income_calFees": "0"
+          }
+        },
+        {
+          "validator_pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "KYlUGvP48A+SwzhZIccOIO7Qmi5KQ6vzre8lTDM7DVI="
+          },
+          "delegator_address": "address1s96jpqn8pp6twy9urq0fs9rnldeuyaxkqpjs4e",
+          "earning_start_info": {
+            "previous_period": "0",
+            "bond_token": "3000000000",
+            "earns_starting_height": "1",
+            "first_delegate_height": "1",
+            "historical_rewards": "0",
+            "last_income_calHeight": "0",
+            "last_income_calFees": "0"
+          }
+        }
+      ],
+      "delegators_income_height": [
+        {
+          "validator_pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "64rpg9AJ9IKeA7AeRQOaTBm0dHfdpr4S7mRATQV1Rtc="
+          },
+          "delegator_address": "address16t0tajq5jctdxsgcg7g8zru5yy4m3w6gjar0e5",
+          "height": "31"
+        },
+        {
+          "validator_pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "KYlUGvP48A+SwzhZIccOIO7Qmi5KQ6vzre8lTDM7DVI="
+          },
+          "delegator_address": "address1s96jpqn8pp6twy9urq0fs9rnldeuyaxkqpjs4e",
+          "height": "31"
+        }
+      ],
+      "params": {
+        "proposer_reward_rate": {
+          "value": "0.010000000000000000"
+        },
+        "community_reward_rate": {
+          "value": "0.010000000000000000"
+        },
+        "validator_commission_rate": {
+          "value": "0.001000000000000000"
+        },
+        "delegator_income_period_height": "30",
+        "gas_per_unit_cost": "100"
+      }
+    }
+  }
+}
