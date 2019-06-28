@@ -17,6 +17,10 @@ We bootstraped the first testnet with 4 genesis validators. The average block ti
 
 We start `Capricorn-2000` with 2 genesis validators. The average block time is about 5s.
 
+## *June 28, 2019* - Capricorn-3000
+
+We start `Capricorn-3000` with 9 genesis validators. The average block time is about 5s.
+
 ## Resources
 
 * Code：https://github.com/QOSGroup/qos
