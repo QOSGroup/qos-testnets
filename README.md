@@ -21,6 +21,10 @@ We start `Capricorn-2000` with 2 genesis validators. The average block time is a
 
 We start `Capricorn-3000` with 9 genesis validators. The average block time is about 5s.
 
+## *Aug 24, 2019* - Aquarius-1000
+
+We start `Aquarius-1000` with 1 genesis validators. The average block time is about 5s.
+
 ## Resources
 
 * Code：https://github.com/QOSGroup/qos
