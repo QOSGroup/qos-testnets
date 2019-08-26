@@ -179,7 +179,7 @@
         }
       ],
       "params": {
-        "max_validator_cnt": 21,
+        "max_validator_cnt": 7,
         "voting_status_len": 10000,
         "voting_status_least": 7000,
         "survival_secs": 28800,
