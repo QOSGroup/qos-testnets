@@ -1,7 +1,7 @@
 Aquarius-1000, bootstraped at Aug 24, 2019.
 
 ## qos version
-[qos](https://github.com/QOSGroup/qos) version is **v0.0.6**
+[qos](https://github.com/QOSGroup/qos) version is **v0.0.7**
 
 ## seed node
 
