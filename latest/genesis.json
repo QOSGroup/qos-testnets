@@ -1,6 +1,6 @@
 {
   "genesis_time": "2019-08-24T04:11:28.761438805Z",
-  "chain_id": "aquarius-1000",
+  "chain_id": "aquarius-1001",
   "consensus_params": {
     "block": {
       "max_bytes": "1048576",
@@ -18,6 +18,84 @@
   },
   "app_hash": "",
   "app_state": {
+    "params": null,
+    "approve": {
+      "approves": null
+    },
+    "bank": {
+      "accounts": [
+        {
+          "base_account": {
+            "account_address": "address1nzv9awha9606jp5rpqe2kujckddpyauggu56ru",
+            "public_key": null,
+            "nonce": "0"
+          },
+          "qos": "49000000000000",
+          "qscs": []
+        }
+      ]
+    },
+    "stake": {
+      "gen_txs": [
+        {
+          "itx": [
+            {
+              "type": "stake/txs/TxCreateValidator",
+              "value": {
+                "Owner": "address1nzv9awha9606jp5rpqe2kujckddpyauggu56ru",
+                "PubKey": {
+                  "type": "tendermint/PubKeyEd25519",
+                  "value": "PXPOV6EasooH0lQzX30bZvnoL9OExN6c9nE8UuPojbg="
+                },
+                "BondTokens": "100000000000",
+                "IsCompound": false,
+                "Description": {
+                  "moniker": "QOS",
+                  "logo": "https://avatars0.githubusercontent.com/u/41604972?s=200\u0026v=4",
+                  "website": "https://github.com/QOSGroup",
+                  "details": ""
+                },
+                "Commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                }
+              }
+            }
+          ],
+          "sigature": [
+            {
+              "pubkey": {
+                "type": "tendermint/PubKeyEd25519",
+                "value": "TWqvYXJI3HbrAXWqyy0zd2LQaIozD6av/dJmFAwWfUg="
+              },
+              "signature": "nK1ZvqBrQ1HdDYHlJdYOxpaz9ZNcY161Gh6653CyGOeCOVxjzxpbCQ/0HZ3RQD/Cr/BhTSGvCOMSCB0ItHfoDg==",
+              "nonce": "1"
+            }
+          ],
+          "chainid": "aquarius-1001",
+          "maxgas": "1000000"
+        }
+      ],
+      "params": {
+        "max_validator_cnt": 7,
+        "voting_status_len": 10000,
+        "voting_status_least": 7000,
+        "survival_secs": 28800,
+        "unbond_return_height": 259200,
+        "redelegation_height": 4800,
+        "max_evidence_age": "1814400000000000",
+        "slash_fraction_double_sign": "0.200000000000000000",
+        "slash_fraction_downtime": "0.000100000000000000"
+      },
+      "validators": null,
+      "val_votes_info": null,
+      "val_votes_in_window": null,
+      "delegators_info": null,
+      "delegator_unbond_info": null,
+      "redelegations_info": null,
+      "current_validators": null
+    },
     "qsc": {
       "ca_root_pub_key": {
         "type": "tendermint/PubKeyEd25519",
@@ -45,13 +123,6 @@
         "gas_per_unit_cost": "100"
       }
     },
-    "qcp": {
-      "ca_root_pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "w+UlkkcrHKKwAmEEl76rO5xHHj3quoxLgN5rvE5yYQ0="
-      },
-      "qcps": null
-    },
     "guardian": {
       "guardians": [
         {
@@ -59,38 +130,6 @@
           "guardian_type": 1,
           "address": "address1lleqjs4cjf87rcmgt7jn705aza59udhu4tnccn",
           "creator": "address1ah9uz0"
-        }
-      ]
-    },
-    "params": null,
-    "approve": {
-      "approves": null
-    },
-    "gov": {
-      "starting_proposal_id": "1",
-      "params": {
-        "min_deposit": "10",
-        "min_proposer_deposit_rate": "0.334000000000000000",
-        "max_deposit_period": "172800000000000",
-        "voting_period": "172800000000000",
-        "quorum": "0.334000000000000000",
-        "threshold": "0.500000000000000000",
-        "veto": "0.334000000000000000",
-        "penalty": "0.000000000000000000",
-        "burn_rate": "0.500000000000000000"
-      },
-      "proposals": null
-    },
-    "bank": {
-      "accounts": [
-        {
-          "base_account": {
-            "account_address": "address1nzv9awha9606jp5rpqe2kujckddpyauggu56ru",
-            "public_key": null,
-            "nonce": "0"
-          },
-          "qos": "49000000000000",
-          "qscs": []
         }
       ]
     },
@@ -136,66 +175,27 @@
       "applied_qos_amount": "49000000000000",
       "total_qos_amount": "100000000000000"
     },
-    "stake": {
-      "gen_txs": [
-        {
-          "itx": [
-            {
-              "type": "stake/txs/TxCreateValidator",
-              "value": {
-                "Owner": "address1nzv9awha9606jp5rpqe2kujckddpyauggu56ru",
-                "PubKey": {
-                  "type": "tendermint/PubKeyEd25519",
-                  "value": "PXPOV6EasooH0lQzX30bZvnoL9OExN6c9nE8UuPojbg="
-                },
-                "BondTokens": "10000000000",
-                "IsCompound": false,
-                "Description": {
-                  "moniker": "qos",
-                  "logo": "https://avatars0.githubusercontent.com/u/41604972?s=200\u0026v=4",
-                  "website": "https://github.com/QOSGroup",
-                  "details": ""
-                },
-                "Commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                }
-              }
-            }
-          ],
-          "sigature": [
-            {
-              "pubkey": {
-                "type": "tendermint/PubKeyEd25519",
-                "value": "TWqvYXJI3HbrAXWqyy0zd2LQaIozD6av/dJmFAwWfUg="
-              },
-              "signature": "d7zMtaU/1SBK8DnKiPnfpsnRxtN/d/H0uYlJ8Al5/mLfvzPubPMieyC/B9rOS1Qq2oSF/nfOoq1bXvho+DNdAw==",
-              "nonce": "1"
-            }
-          ],
-          "chainid": "aquarius-1000",
-          "maxgas": "1000000"
-        }
-      ],
+    "gov": {
+      "starting_proposal_id": "1",
       "params": {
-        "max_validator_cnt": 7,
-        "voting_status_len": 10000,
-        "voting_status_least": 7000,
-        "survival_secs": 28800,
-        "unbond_return_height": 259200,
-        "redelegation_height": 17280,
-        "max_evidence_age": "1814400000000000",
-        "slash_fraction_double_sign": "0.200000000000000000",
-        "slash_fraction_downtime": "0.000100000000000000"
+        "min_deposit": "10",
+        "min_proposer_deposit_rate": "0.334000000000000000",
+        "max_deposit_period": "172800000000000",
+        "voting_period": "172800000000000",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000",
+        "penalty": "0.000000000000000000",
+        "burn_rate": "0.500000000000000000"
       },
-      "validators": null,
-      "val_votes_info": null,
-      "val_votes_in_window": null,
-      "delegators_info": null,
-      "delegator_unbond_info": null,
-      "redelegations_info": null,
-      "current_validators": null
+      "proposals": null
+    },
+    "qcp": {
+      "ca_root_pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "w+UlkkcrHKKwAmEEl76rO5xHHj3quoxLgN5rvE5yYQ0="
+      },
+      "qcps": null
     }
   }
 }
