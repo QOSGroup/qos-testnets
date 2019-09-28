@@ -1,6 +1,6 @@
 {
   "genesis_time": "2019-09-27T09:37:27.38754233Z",
-  "chain_id": "aquarius-2000",
+  "chain_id": "aquarius-2001",
   "consensus_params": {
     "block": {
       "max_bytes": "1048576",
