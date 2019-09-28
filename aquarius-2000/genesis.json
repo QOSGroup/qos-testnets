@@ -18,15 +18,230 @@
   },
   "app_hash": "",
   "app_state": {
-    "approve": {
-      "approves": null
+    "mint": {
+      "inflation_phrases": [
+        {
+          "end_time": "2023-10-20T00:00:00Z",
+          "total_amount": "25500000000000",
+          "applied_amount": "1990216"
+        },
+        {
+          "end_time": "2027-10-20T00:00:00Z",
+          "total_amount": "12750000000000",
+          "applied_amount": "0"
+        },
+        {
+          "end_time": "2031-10-20T00:00:00Z",
+          "total_amount": "6375000000000",
+          "applied_amount": "0"
+        },
+        {
+          "end_time": "2035-10-20T00:00:00Z",
+          "total_amount": "3187500000000",
+          "applied_amount": "0"
+        },
+        {
+          "end_time": "2039-10-20T00:00:00Z",
+          "total_amount": "1593750000000",
+          "applied_amount": "0"
+        },
+        {
+          "end_time": "2043-10-20T00:00:00Z",
+          "total_amount": "796875000000",
+          "applied_amount": "0"
+        },
+        {
+          "end_time": "2047-10-20T00:00:00Z",
+          "total_amount": "796875000000",
+          "applied_amount": "0"
+        }
+      ],
+      "first_block_time": "0",
+      "applied_qos_amount": "49000001990216",
+      "total_qos_amount": "100000000000000"
+    },
+    "params": null,
+    "qcp": {
+      "ca_root_pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "w+UlkkcrHKKwAmEEl76rO5xHHj3quoxLgN5rvE5yYQ0="
+      },
+      "qcps": []
     },
     "qsc": {
       "ca_root_pub_key": {
         "type": "tendermint/PubKeyEd25519",
         "value": "w+UlkkcrHKKwAmEEl76rO5xHHj3quoxLgN5rvE5yYQ0="
       },
-      "qscs": null
+      "qscs": []
+    },
+    "stake": {
+      "gen_txs": null,
+      "params": {
+        "max_validator_cnt": "21",
+        "voting_status_len": "10000",
+        "voting_status_least": "7000",
+        "survival_secs": "28800",
+        "unbond_frozen_height": "259200",
+        "max_evidence_age": "1814400000000000",
+        "slash_fraction_double_sign": "0.200000000000000000",
+        "slash_fraction_downtime": "0.000100000000000000"
+      },
+      "validators": [
+        {
+          "validator_address": "qosval1w25fcgwmre7ex5p28jeptxehl4rynf8sxffk72",
+          "owner": "qosacc1nzv9awha9606jp5rpqe2kujckddpyaugv0ze4k",
+          "consensus_pubkey": "qosconspub1zcjduepqjqde5lsuln43wqgx73d4d8t0ecaqd055fanczd3gs37cuep95keqt9yv9r",
+          "bond_tokens": "100000000000",
+          "description": {
+            "moniker": "qos",
+            "logo": "",
+            "website": "https://github.com/QOSGroup",
+            "details": ""
+          },
+          "status": 0,
+          "inactive_code": 0,
+          "inactive_time": "0001-01-01T00:00:00Z",
+          "inactive_height": "0",
+          "min_period": "0",
+          "bond_height": "0"
+        }
+      ],
+      "val_votes_info": null,
+      "val_votes_in_window": null,
+      "delegators_info": [
+        {
+          "delegator_addr": "qosacc1nzv9awha9606jp5rpqe2kujckddpyaugv0ze4k",
+          "validator_addr": "qosval1w25fcgwmre7ex5p28jeptxehl4rynf8sxffk72",
+          "delegate_amount": "100000000000",
+          "is_compound": false
+        }
+      ],
+      "delegator_unbond_info": null,
+      "redelegations_info": null,
+      "current_validators": [
+        {
+          "validator_address": "qosval1w25fcgwmre7ex5p28jeptxehl4rynf8sxffk72",
+          "owner": "qosacc1nzv9awha9606jp5rpqe2kujckddpyaugv0ze4k",
+          "consensus_pubkey": "qosconspub1zcjduepqjqde5lsuln43wqgx73d4d8t0ecaqd055fanczd3gs37cuep95keqt9yv9r",
+          "bond_tokens": "100000000000",
+          "description": {
+            "moniker": "qos",
+            "logo": "",
+            "website": "https://github.com/QOSGroup",
+            "details": ""
+          },
+          "status": 0,
+          "inactive_code": 0,
+          "inactive_time": "0001-01-01T00:00:00Z",
+          "inactive_height": "0",
+          "min_period": "0",
+          "bond_height": "0"
+        }
+      ]
+    },
+    "bank": {
+      "accounts": [
+        {
+          "account_address": "qosacc1nzv9awha9606jp5rpqe2kujckddpyaugv0ze4k",
+          "public_key": "qosaccpub1zcjduepqf4427ctjfrw8d6cpwk4vktfnwa3dq6y2xv86dtla6fnpgrqk04yqm2m23w",
+          "nonce": 1,
+          "qos": "38900000000000",
+          "qscs": null
+        },
+        {
+          "account_address": "qosacc1k77dw8a724350ffzc64d8jqwkclzte76gwctdy",
+          "public_key": "",
+          "nonce": 0,
+          "qos": "1000000000000",
+          "qscs": null
+        },
+        {
+          "account_address": "qosacc16yjn2gk2n5kynn2uj6kt3ldnxgj9kag5yqxwj8",
+          "public_key": "",
+          "nonce": 0,
+          "qos": "9000000000000",
+          "qscs": null
+        }
+      ],
+      "lock_info": {
+        "locked_account": "qosacc16yjn2gk2n5kynn2uj6kt3ldnxgj9kag5yqxwj8",
+        "receiver": "qosacc1k77dw8a724350ffzc64d8jqwkclzte76gwctdy",
+        "total_amount": "10000000000000",
+        "released_amount": "1000000000000",
+        "release_time": "2023-10-20T00:00:00Z",
+        "release_interval": "30",
+        "release_times": "10"
+      }
+    },
+    "approve": {
+      "approves": []
+    },
+    "distribution": {
+      "community_fee_pool": "39806",
+      "last_block_proposer": "qoscons15yyfu3uju8mr5tt87vr8lqs9hztd0s64xglsu3",
+      "pre_distribute_amount": "0",
+      "validators_history_period": [
+        {
+          "validator_address": "qosval1w25fcgwmre7ex5p28jeptxehl4rynf8sxffk72",
+          "consensus_pubkey": "qosconspub1zcjduepqjqde5lsuln43wqgx73d4d8t0ecaqd055fanczd3gs37cuep95keqt9yv9r",
+          "period": "0",
+          "summary": {
+            "value": "0.000000000000000000"
+          }
+        }
+      ],
+      "validators_current_period": [
+        {
+          "validator_address": "qosval1w25fcgwmre7ex5p28jeptxehl4rynf8sxffk72",
+          "consensus_pubkey": "qosconspub1zcjduepqjqde5lsuln43wqgx73d4d8t0ecaqd055fanczd3gs37cuep95keqt9yv9r",
+          "current_period_summary": {
+            "fees": "0",
+            "period": "1"
+          }
+        }
+      ],
+      "delegator_earning_info": [
+        {
+          "validator_address": "qosval1w25fcgwmre7ex5p28jeptxehl4rynf8sxffk72",
+          "consensus_pubkey": "qosconspub1zcjduepqjqde5lsuln43wqgx73d4d8t0ecaqd055fanczd3gs37cuep95keqt9yv9r",
+          "delegator_address": "qosacc1nzv9awha9606jp5rpqe2kujckddpyaugv0ze4k",
+          "earning_start_info": {
+            "previous_period": "0",
+            "bond_token": "100000000000",
+            "earns_starting_height": "0",
+            "first_delegate_height": "0",
+            "historical_rewards": "0",
+            "last_income_calHeight": "0",
+            "last_income_calFees": "0"
+          }
+        }
+      ],
+      "delegator_income_height": [
+        {
+          "validator_address": "qosval1w25fcgwmre7ex5p28jeptxehl4rynf8sxffk72",
+          "consensus_pubkey": "qosconspub1zcjduepqjqde5lsuln43wqgx73d4d8t0ecaqd055fanczd3gs37cuep95keqt9yv9r",
+          "delegator_address": "qosacc1nzv9awha9606jp5rpqe2kujckddpyaugv0ze4k",
+          "height": "720"
+        }
+      ],
+      "validator_eco_fee_pools": [
+        {
+          "validator_address": "qosval1w25fcgwmre7ex5p28jeptxehl4rynf8sxffk72",
+          "eco_fee_pool": {
+            "proposerTotalRewardFee": "19902",
+            "commissionTotalRewardFee": "193050",
+            "preDistributeTotalRewardFee": "1737458",
+            "preDistributeRemainTotalFee": "1950410"
+          }
+        }
+      ],
+      "params": {
+        "proposer_reward_rate": "0.010000000000000000",
+        "community_reward_rate": "0.020000000000000000",
+        "delegator_income_period_height": "720",
+        "gas_per_unit_cost": "1000"
+      }
     },
     "gov": {
       "starting_proposal_id": "1",
@@ -61,98 +276,6 @@
       },
       "proposals": null
     },
-    "bank": {
-      "accounts": [
-        {
-          "account_address": "qosacc1nzv9awha9606jp5rpqe2kujckddpyaugv0ze4k",
-          "public_key": "",
-          "nonce": 0,
-          "qos": "39000000000000",
-          "qscs": []
-        },
-        {
-          "account_address": "qosacc16yjn2gk2n5kynn2uj6kt3ldnxgj9kag5yqxwj8",
-          "public_key": "",
-          "nonce": 0,
-          "qos": "9000000000000",
-          "qscs": null
-        },
-        {
-          "account_address": "qosacc1k77dw8a724350ffzc64d8jqwkclzte76gwctdy",
-          "public_key": "",
-          "nonce": 0,
-          "qos": "1000000000000",
-          "qscs": []
-        }
-      ],
-      "lock_info": {
-        "locked_account": "qosacc16yjn2gk2n5kynn2uj6kt3ldnxgj9kag5yqxwj8",
-        "receiver": "qosacc1k77dw8a724350ffzc64d8jqwkclzte76gwctdy",
-        "total_amount": "10000000000000",
-        "released_amount": "1000000000000",
-        "release_time": "2023-10-20T00:00:00Z",
-        "release_interval": "30",
-        "release_times": "10"
-      }
-    },
-    "mint": {
-      "inflation_phrases": [
-        {
-          "end_time": "2023-10-20T00:00:00Z",
-          "total_amount": "25500000000000",
-          "applied_amount": "0"
-        },
-        {
-          "end_time": "2027-10-20T00:00:00Z",
-          "total_amount": "12750000000000",
-          "applied_amount": "0"
-        },
-        {
-          "end_time": "2031-10-20T00:00:00Z",
-          "total_amount": "6375000000000",
-          "applied_amount": "0"
-        },
-        {
-          "end_time": "2035-10-20T00:00:00Z",
-          "total_amount": "3187500000000",
-          "applied_amount": "0"
-        },
-        {
-          "end_time": "2039-10-20T00:00:00Z",
-          "total_amount": "1593750000000",
-          "applied_amount": "0"
-        },
-        {
-          "end_time": "2043-10-20T00:00:00Z",
-          "total_amount": "796875000000",
-          "applied_amount": "0"
-        },
-        {
-          "end_time": "2047-10-20T00:00:00Z",
-          "total_amount": "796875000000",
-          "applied_amount": "0"
-        }
-      ],
-      "first_block_time": "1569577047",
-      "applied_qos_amount": "49000000000000",
-      "total_qos_amount": "100000000000000"
-    },
-    "distribution": {
-      "community_fee_pool": "0",
-      "last_block_proposer": "",
-      "pre_distribute_amount": "0",
-      "validators_history_period": null,
-      "validators_current_period": null,
-      "delegator_earning_info": null,
-      "delegator_income_height": null,
-      "validator_eco_fee_pools": null,
-      "params": {
-        "proposer_reward_rate": "0.010000000000000000",
-        "community_reward_rate": "0.020000000000000000",
-        "delegator_income_period_height": "720",
-        "gas_per_unit_cost": "1000"
-      }
-    },
     "guardian": {
       "guardians": [
         {
@@ -162,75 +285,6 @@
           "creator": ""
         }
       ]
-    },
-    "params": null,
-    "stake": {
-      "gen_txs": [
-        {
-          "itx": [
-            {
-              "type": "stake/txs/TxCreateValidator",
-              "value": {
-                "owner": "qosacc1nzv9awha9606jp5rpqe2kujckddpyaugv0ze4k",
-                "cons_pub_key": {
-                  "type": "tendermint/PubKeyEd25519",
-                  "value": "kBuafhz86xcBBvRbVp1vzjoGvpRPZ4E2KIR9jmQlpbI="
-                },
-                "bond_tokens": "100000000000",
-                "is_compound": false,
-                "description": {
-                  "moniker": "qos",
-                  "logo": "",
-                  "website": "https://github.com/QOSGroup",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "delegations": null
-              }
-            }
-          ],
-          "sigature": [
-            {
-              "pubkey": {
-                "type": "tendermint/PubKeyEd25519",
-                "value": "TWqvYXJI3HbrAXWqyy0zd2LQaIozD6av/dJmFAwWfUg="
-              },
-              "signature": "fkoFQV/m5QzCz7x06l4wr1HCYqiStFfiddGysrfyBxD+sOqRHN+nh8QAtjkSF+sbf8DjVru9cl5ihr6iZL/PAg==",
-              "nonce": "1"
-            }
-          ],
-          "chainid": "aquarius-2000",
-          "maxgas": "1000000"
-        }
-      ],
-      "params": {
-        "max_validator_cnt": "21",
-        "voting_status_len": "10000",
-        "voting_status_least": "7000",
-        "survival_secs": "28800",
-        "unbond_frozen_height": "259200",
-        "max_evidence_age": "1814400000000000",
-        "slash_fraction_double_sign": "0.200000000000000000",
-        "slash_fraction_downtime": "0.000100000000000000"
-      },
-      "validators": null,
-      "val_votes_info": null,
-      "val_votes_in_window": null,
-      "delegators_info": null,
-      "delegator_unbond_info": null,
-      "redelegations_info": null,
-      "current_validators": null
-    },
-    "qcp": {
-      "ca_root_pub_key": {
-        "type": "tendermint/PubKeyEd25519",
-        "value": "w+UlkkcrHKKwAmEEl76rO5xHHj3quoxLgN5rvE5yYQ0="
-      },
-      "qcps": null
     }
   }
 }
